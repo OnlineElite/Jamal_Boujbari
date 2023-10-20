@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*---------------About me section---------------*/
+
+#about{
+    margin-top: 3rem;
+    padding-inline: 0.5rem;
+}
+
+#about h2{
+    color: #000;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+#about .circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+#about .circle img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+#about .case2{
+    border-left: 3px solid #6f34fe;
+    position: relative;
+    height: fit-content;
+    padding-bottom: 2rem;
+}
+#about .case2 p{
+    width: 100%;
+}
+#about .case2 h3{
+    color: #6f34fe;
+    left: 20px;
+    margin-bottom: 10px;
+}
+#about .case1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#about .artecle{
+    position: relative;
+    margin: 7em 0;
+}
