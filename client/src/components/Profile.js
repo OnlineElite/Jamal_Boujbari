@@ -7,7 +7,7 @@ function Profile(){
         <div id='profile'>
             <div className="head">
                 <div className="fullname">
-                    <h1 data-text="JAMALBOUJBARI">JAMALBOUJBARI</h1>
+                    <h1 data-text="JAMAL BOUJBARI">JAMAL BOUJBARI</h1>
                 </div>
                 <div className="icon">
                     <a href="https://github.com/OnlineElite" target="_blank" rel='noreferrer'>

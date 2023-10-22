@@ -58,7 +58,7 @@ function Deploma(){
                     </div>
                     <div className="formations">
                         <div className="formadate">
-                            <p><FontAwesomeIcon className='icons' icon="fa-solid fa-award"/> Apr 2017: </p>
+                            <p><FontAwesomeIcon className='icons' icon="fa-solid fa-award"/> Sep 2023: </p>
                         </div>
                         <div className="formacontenet">
                             <p> 
