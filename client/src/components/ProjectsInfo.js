@@ -23,7 +23,7 @@ export const projects = [
         title : 'DrawMe | Drawing Pallet',
         description : `A web application that allows you to choose a color and draw with a color palette that generates random colors.`,
         techUsed :  `HTML5, CSS3, Bootstrap, JavaScript.`,
-        liveLink : '',
+        liveLink : 'https://drawing-pallet.vercel.app/',
         codeLink : 'https://github.com/OnlineElite/Drawing_Pallet',
         type : 'Front End'
     },
@@ -32,7 +32,7 @@ export const projects = [
         title : 'Xaction | Movie Application',
         description : `A web application through which you can search for movies of all categories, show movie details, and watch it.`,
         techUsed :  `HTML5, CSS3, Bootstrap, JavaScript, ReactJS, Redux, API's.`,
-        liveLink : '',
+        liveLink : 'https://movie-app-blush-two.vercel.app/',
         codeLink : 'https://github.com/OnlineElite/Movie_App',
         type : 'Front End'
     },
@@ -41,7 +41,7 @@ export const projects = [
         title : `Todo's | To Do Application`,
         description : `A web application that allows you to list and manage your tasks by changing the status between completed or incomplete..`,
         techUsed :  `HTML5, CSS3, Bootstrap, JavaScript, ReactJS.`,
-        liveLink : '',
+        liveLink : 'https://todo-list-gamma-one-76.vercel.app/',
         codeLink : 'https://github.com/OnlineElite/ToDo_List',
         type : 'Front End'
     },
@@ -50,7 +50,7 @@ export const projects = [
         title : 'MindMatch | Online Memory Game',
         description : `Immerse yourself in a fun challenge of sharp recollection with our Images Memory Game. Match pairs and exercise your memory while exploring a world of vibrant visuals.`,
         techUsed :  `HTML5, CSS3, Bootstrap, JavaScript, ReactJS.`,
-        liveLink : '',
+        liveLink : 'https://memory-game-phi-rose.vercel.app/',
         codeLink : 'https://github.com/OnlineElite/Memory_Game',
         type : 'Front End'
     },
@@ -59,7 +59,7 @@ export const projects = [
         title : 'Herolo | Online Weather Application',
         description : `An online weather application that allows you to search for a location's weather by city name. It shows the current weather and 5-day weather forecast for the searched location. And save it in your favorites.`,
         techUsed :  `HTML5, CSS3, Bootstrap, JavaScript, ReactJS, Redux, API's.`,
-        liveLink : '',
+        liveLink : 'https://weather-app-five-indol-98.vercel.app/',
         codeLink : 'https://github.com/OnlineElite/Weather_App',
         type : 'Front End'
     },
@@ -68,7 +68,7 @@ export const projects = [
         title : `Snapshot | Image Search Application`,
         description : `Your go-to destination for effortless image searches. Easily upload or link images, and our advanced algorithms will swiftly identify and retrieve related content, making image exploration and retrieval a seamless experience.`,
         techUsed :  `HTML5, CSS3, Bootstrap, JavaScript, ReactJS, API's.`,
-        liveLink : '',
+        liveLink : 'https://snapshot-app-five.vercel.app/',
         codeLink : 'https://github.com/OnlineElite/Snapshot_App',
         type : 'Front End'
     },
