@@ -4,6 +4,7 @@ import Header from './Header'
 import About from './About'
 import Skills from './Skills'
 import Projects from '../components/Projects'
+import Contact from './Contact'
 import '../Styles/Portfolio.css'
 function Portfolio(){
 
@@ -13,6 +14,7 @@ function Portfolio(){
             <About/>
             <Skills/>
             <Projects/>
+            <Contact/>
         </div>
     )
 }

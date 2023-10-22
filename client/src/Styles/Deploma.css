@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#diploma{
+    margin-bottom: 10px;
+}
+
+#diploma h3{
+    color: rgb(2, 2, 97);
+    width: 100%;
+    font-size: 22px;
+}
+
+#diploma .contitle{
+    display: flex;
+    margin-bottom: 0.5rem;
+}
+
+#diploma .arrow-left {
+    width: 0; 
+    height: 0; 
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent; 
+    border-left:20px solid rgb(240, 236, 236); 
+}
+
+#diploma .formations{
+    display: flex;
+}
+#diploma .formations .formadate{
+    width: 13%;
+}
+#diploma .formations .formacontenet{
+    width: 86%;
+}
+#diploma .formations .formadate p{
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+#diploma .formations .formadate .icons{
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(2, 2, 97);
+    margin-left: 0.5rem;
+}
+#diploma .formations .formacontenet p{
+    font-size: 18px;
+    padding-inline: 5px;
+}
+#diploma #additionalCertificate{
+    margin-bottom: 10px;
+}
+
+#diploma .title{
+    background-color: rgb(240, 236, 236);
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 10px;
+    padding-left: 5px;
+}
+#diploma .title .icons{
+    margin-bottom: 6px;
+    margin-right: 2px;
+    font-size: 18px;
+    color: rgb(2, 2, 97);
+}

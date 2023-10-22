@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#profile .fullname{
+    width: 100%;
+    height: 9.4rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#profile .fullname h1{
+    position: absolute;
+    left: 15%;
+    text-transform: capitalize;
+    font-size: 6vw;
+    color: rgb(2, 2, 97);
+}
+#profile .fullname h1::after {
+    content: attr(data-text);
+    position: absolute;
+    top: 15%;
+    left: 0;
+    /* Change the position of transformed element */
+    transform-origin: bottom;
+    /*  Rotates around x-axis */
+    transform: rotateX(180deg);
+    line-height: 0.85em;
+    /* linear-gradient defined by up,down,left ,right ,diagonal */
+    background-image: linear-gradient(0deg, rgb(2, 2, 97) 0, transparent 95%);
+    -webkit-background-clip: text;
+    color: transparent;         
+    opacity: 0.2;
+}
+
+/*-social media-*/
+#profile .head{
+    display: flex;
+    position: relative;
+}
+#profile .icon{
+    width: fit-content;
+    height: fit-content;
+    padding-block: 20px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-color: rgb(2, 2, 97);
+}
+#profile .icon .icons{
+    font-size: 1.5rem;
+    margin: 4px;
+    color: #fff;
+    transition: 1s;
+    
+}
+#profile .icon .icons:hover{
+    transform: scale(1.3);
+}
+/*-profile-*/
+#profile h3{
+    color: rgb(2, 2, 97);
+    width: 100%;
+    font-size: 22px;
+}
+
+#profile .title{
+    background-color: rgb(240, 236, 236);
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 10px;
+    padding-left: 5px;
+}
+#profile .title .icons{
+    margin-bottom: 6px;
+    margin-right: 2px;
+    font-size: 18px;
+    color: rgb(2, 2, 97);
+}
+#profile .arrow-left {
+    width: 0; 
+    height: 0; 
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent; 
+    border-left:20px solid rgb(240, 236, 236); 
+}
+#profile .contitle{
+    display: flex;
+
+}
+#profile .content{
+    width: 100%;
+    height: fit-content;
+    padding: 10px;
+}
+#profile .content p{
+    font-size: 18px;
+    text-indent: 2rem;
+}

@@ -3,4 +3,44 @@
     padding: 0;
     margin: 0;
 }
+#summary{
+    background-image: url('../images/header.jpg');
+    margin:0;
+    padding-block: 0.5rem;
+    position: relative;
+}
+
+#summary .leftSide{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content:center;
+    position: absolute;
+    left: 1rem;
+    top: 1rem;
+    padding-left: 0.3rem;
+}
+
+#summary .leftSide .icons{
+    font-size: 2rem;
+    font-weight: 700;
+    color: rgb(2, 2, 97);
+}
+
+#summary .container{
+    width: 100vw;
+    height: fit-content;
+    padding-inline: 1rem;
+}
+
+#summary #sidebar{
+    padding: 10px;
+    background-color: rgb(240, 236, 236);
+
+}
+
+#summary #main{
+    background-color: white;
+    padding: 0;
+}
 

@@ -6,7 +6,6 @@
 
 #projects{
     margin-top: 3rem;
-    padding-bottom: 2rem;
 }
 
 #projects h2{
@@ -18,15 +17,17 @@
 #projects .container{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 25px;
+    grid-template-rows: 31.3rem;
+    gap: 1.6rem;
     padding: 1rem;
 }
 
 #projects  .cart {
     box-shadow: 0 4px 8px 0 black;
     color: #000;
-    border-radius: 5px;
+    border-radius: 7px;
     background-image: linear-gradient( #2bb7f8, #fff);
+    height: 31.3rem;
 }
 
 #projects  .cart span{
@@ -37,8 +38,9 @@
 #projects  .cart .cart_head{
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
-    height: 180px;
+    height: 33%;
     background-color: greenyellow;
+    width: 100%;
 }
 
 #projects  .cart .cart_head img{
@@ -50,34 +52,44 @@
 
 #projects  .cart .cart_body{
     padding: 0.5rem;
-    padding-inline: 1rem;
+    height: 67%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+
 }
 
 #projects  .cart .cart_body .title{
     font-size: 16px;
-    font-weight: 700;
+    font-weight: bold;
 }
 
 #projects  .cart .cart_body p{
     font-size: 15px;
 }
 
-#projects  .cart .cart_body .desc{
-    height: 7rem;
-    margin-bottom: 0.7rem;
+#projects  .cart .cart_body .cartFooter{
+    width: 100%;
 }
 
 #projects  .cart .cart_body .buttons{
+    width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 #projects  .cart .cart_body .buttons button{
-    background-color: #6f34fe;
-    color: white;
+    color: #6f34fe;
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 1.1rem;
+    border: none;
+    outline: none;
 }
 
+
 #projects  .cart .cart_body .buttons .live{
-    background-color: orange;
+    color: orange;
 }

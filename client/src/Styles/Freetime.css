@@ -1,0 +1,156 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+#freeTime h3{
+    color: rgb(2, 2, 97);
+    width: 100%;
+    font-size: 22px;
+}
+
+#freeTime .contitle{
+    display: flex;
+    margin-bottom: 0.5rem;
+}
+
+#freeTime .arrow-left {
+    width: 0; 
+    height: 0; 
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent; 
+    border-left:20px solid rgb(240, 236, 236); 
+}
+
+#freeTime .title{
+    background-color: rgb(240, 236, 236);
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 10px;
+    padding-left: 5px;
+}
+#freeTime .title .icons{
+    margin-bottom: 6px;
+    margin-right: 2px;
+    font-size: 18px;
+    color: rgb(2, 2, 97);
+}
+
+#freeTime #freetimecontent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 30px;
+
+}
+#freeTime .cart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#freeTime .tasks{
+    width: 160px;
+    height: 160px;
+    position: relative;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#freeTime .taskName{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(4, 4, 73);
+    color: white;
+    border-radius: 10px;
+    padding: 1px;
+    padding-inline: 5px;
+    width: 180px;
+    text-align: center;
+    margin: 5px;
+}
+#freeTime .tasks .outer{
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    box-shadow: 6px 6px 10px 1px rgba(0,0,0,0.15),
+                -6px -6px 10px -1px rgba(255,255,255,0.7) ;
+    padding: 20px;
+}
+#freeTime .tasks .inner{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset  4px 4px 6px -1px rgba(0,0,0,0.2),
+                inset -4px -4px 10px -1px rgba(255,255,255,0.7),
+                -0.5px -0.5px 0px rgba(255,255,255,1),
+                0.5px 0.5px 0px rgba(255,255,255,0.15),
+                0px 12px 10px -10px rgba(0,0,0,0.05) ;
+}
+#freeTime .number{
+    font-weight: 600;
+    color: #555;
+}
+
+#freeTime .circle{
+    fill: none;
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+}
+#freeTime .svg .Internet{
+    stroke:url(#Internet);
+    animation: anime1 2s linear forwards;
+}
+#freeTime .svg .Programming{
+    stroke:url(#Programming);
+    animation: anime2 2s linear forwards;
+}
+#freeTime .svg .Travel{
+    stroke:url(#Travel);
+    animation: anime3 2s linear forwards;
+}
+#freeTime .svg .Sports{
+    stroke:url(#Sports);
+    animation: anime4 2s linear forwards;
+}
+#freeTime .svg{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+@keyframes anime1{
+    100%{
+        /* 15% = 472-472*0.15 = 401.2 */
+        stroke-dashoffset: 402;
+    }
+}
+@keyframes anime2{
+    100%{
+        /* 50% = 472-472*0.50 = 236 */
+        stroke-dashoffset: 236;
+    }
+}
+@keyframes anime3{
+    100%{
+        /* 20% = 472-472*0.20 = 377.6 */
+        stroke-dashoffset: 378;
+    }
+}
+@keyframes anime4{
+    100%{
+        /* 15% = 472-472*0.15 = 401.2 */
+        stroke-dashoffset: 402;
+    }
+}

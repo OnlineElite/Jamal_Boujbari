@@ -1,14 +1,19 @@
 import React from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+//import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import Profile from './Profile'
+import Deploma from './Deploma'
+import Experiences from './Experiences'
+import Freetime from './Freetime'
 
-import '../Styles/Content.css'
 function Content(){
 
     return(
-        <div>
-
+        <div id="main">
+            <Profile/>  
+            <Deploma/> 
+            <Experiences/>
+            <Freetime/>
         </div>
     )
 }
-
 export default Content;

@@ -1,8 +1,9 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-//import {Link} from 'react-router-dom'
 import '../Styles/Header.css'
 import imag from '../images/img7.png'
+import {Link} from 'react-router-dom'
+import cv from '../images/cv.pdf'
 function Header(){
 
     return(
@@ -26,7 +27,14 @@ function Header(){
                         <p>I'm a quick learner and a team player, and I'm confident that 
                             I can be a valuable assist to any web development team.
                         </p>
-                        <button className='btn'>Download CV</button>
+
+                        <Link to={cv}
+                            download="Jamal_Boujbari_CV"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                        <button className='btn'> Download CV </button>
+                        </Link>
                     </div>
                     <div className='section2'>
                         <img src={imag} alt='portfolio'/>
