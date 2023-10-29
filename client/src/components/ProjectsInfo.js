@@ -1,4 +1,4 @@
-import proj1 from '../images/img1.png'
+import proj1 from '../images/techwave.png'
 import proj2 from '../images/drawing.png'
 import proj3 from '../images/movieApp.png'
 import proj4 from '../images/todoList.png'
