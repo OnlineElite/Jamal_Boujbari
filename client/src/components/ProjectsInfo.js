@@ -5,7 +5,7 @@ import proj4 from '../images/todoList.png'
 import proj5 from '../images/memoryGame.png'
 import proj6 from '../images/herolo.png'
 import proj7 from '../images/snapshot.png'
-import proj8 from '../images/restaurant.png'
+//import proj8 from '../images/restaurant.png'
 import proj9 from '../images/carsProject.png'
 export const projects = [
     {
@@ -72,7 +72,7 @@ export const projects = [
         codeLink : 'https://github.com/OnlineElite/Snapshot_App',
         type : 'Front End'
     },
-    {
+    /*{
         image : proj8,
         title : 'SAMOS | Restaurant Website',
         description : `An inviting online platform for our restaurant, where visitors can explore our enticing menu, browse through captivating images of our cuisine, and easily make reservations to savor a memorable dining experience.`,
@@ -80,13 +80,13 @@ export const projects = [
         liveLink : '',
         codeLink : 'https://github.com/OnlineElite/Restaurant_Website',
         type : 'Full Stack'
-    },
+    },*/
     {
         image : proj9,
         title : 'AutoLux | Cars Website & Cars Blog ',
         description : `The official digital hub for our esteemed automotive company, showcasing our full range of vehicles, services, and customer support, with a focus on user-friendly navigation and interactive features.`,
         techUsed :  `HTML5, CSS3, Bootstrap.`,
-        liveLink : '',
+        liveLink : 'https://cars-website-rouge.vercel.app/',
         codeLink : 'https://github.com/OnlineElite/Cars_Website',
         type : 'Front End'
     }
