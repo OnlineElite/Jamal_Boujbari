@@ -26,7 +26,8 @@
     box-shadow: 0 4px 8px 0 black;
     color: #000;
     border-radius: 7px;
-    background-image: linear-gradient( #2bb7f8, #fff);
+    background-color: white;
+    /*background-image: linear-gradient(#fff, #2bb7f8);*/
     height: 31.3rem;
 }
 
@@ -38,8 +39,8 @@
 #projects  .cart .cart_head{
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
-    height: 33%;
-    background-color: greenyellow;
+    height: 37%;
+    background-image: linear-gradient( #2bb7f8, #fff);
     width: 100%;
 }
 
@@ -50,9 +51,10 @@
     border-top-left-radius: 6px;
 }
 
+
 #projects  .cart .cart_body{
     padding: 0.5rem;
-    height: 67%;
+    height: 63%;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;

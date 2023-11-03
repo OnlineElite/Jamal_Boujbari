@@ -144,13 +144,14 @@
 }
 @keyframes anime3{
     100%{
-        /* 20% = 472-472*0.20 = 377.6 */
-        stroke-dashoffset: 378;
+        /* 15% = 472-472*0.15 = 401.2 */
+        stroke-dashoffset: 402;
+        
     }
 }
 @keyframes anime4{
     100%{
-        /* 15% = 472-472*0.15 = 401.2 */
-        stroke-dashoffset: 402;
+        /* 20% = 472-472*0.20 = 377.6 */
+        stroke-dashoffset: 378;
     }
 }

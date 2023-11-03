@@ -47,17 +47,6 @@ function Deploma(){
                 <div className="content">
                     <div className="formations">
                         <div className="formadate">
-                            <p><FontAwesomeIcon className='icons' icon="fa-solid fa-award"/> Apr 2017: </p>
-                        </div>
-                        <div className="formacontenet">
-                            <p>
-                                “My Kit for Employment” training as part of the USAID Carier Center program from Cadi Ayyad University,
-                                Semlalia Faculty of Sciences, Marrakech.
-                            </p>
-                        </div>
-                    </div>
-                    <div className="formations">
-                        <div className="formadate">
                             <p><FontAwesomeIcon className='icons' icon="fa-solid fa-award"/> Sep 2023: </p>
                         </div>
                         <div className="formacontenet">
@@ -66,6 +55,17 @@ function Deploma(){
                             </p>
                         </div>
                     </div>
+                    <div className="formations">
+                        <div className="formadate">
+                            <p><FontAwesomeIcon className='icons' icon="fa-solid fa-award"/> Apr 2017: </p>
+                        </div>
+                        <div className="formacontenet">
+                            <p>
+                                “My Kit for Employment” training as part of the USAID Carier Center program from Cadi Ayyad University,
+                                Semlalia Faculty of Sciences, Marrakech.
+                            </p>
+                        </div>
+                    </div>  
                 </div>   
             </div>
         </div>

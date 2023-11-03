@@ -16,7 +16,7 @@ function Header(){
                         <a className='link' href='#skills'> <li> Skills </li>  </a>  
                         <a className='link' href='#projects'> <li> Projects </li>  </a>  
                         <a className='link' href='#contact'> <li> Contact Me </li>  </a>  
-                        <a className='link' href='/summary'> <li> My CV </li>  </a>  
+                        <a className='link' href='/summary'> <li> Summary</li>  </a>  
                         <i className="bi bi-facebook"></i>
                     </ul>
                 </nav>
