@@ -11,12 +11,15 @@ export const projects = [
     {
         image : proj1,
         title : 'TechWave | Online Store & Dashboard',
-        description : `An e-commerce website that allows you to add the products to the cart, to favorite items, filter products 
-                    , with inventory management system that allows you to controle the store.`,
+        description : `An e-commerce website with inventory management system that allows you to controle the store.`,
         techUsed :  `HTML5, CSS3, Bootstrap, JavaScript, ReactJS, Redux, NodeJS, PostgreSQL.`,
         liveLink : 'https://inventory-management-system-seven.vercel.app/',
         codeLink : 'https://github.com/OnlineElite/Inventory_Management_System',
-        type : 'Full Stack'
+        type : 'Full Stack',
+        admin_account : {
+            email : 'admin@gmail.com',
+            pass : 'admin' 
+        },
     },
     {
         image : proj5,
@@ -25,7 +28,8 @@ export const projects = [
         techUsed :  `HTML5, CSS3, Bootstrap, JavaScript, ReactJS.`,
         liveLink : 'https://memory-game-phi-rose.vercel.app/',
         codeLink : 'https://github.com/OnlineElite/Memory_Game',
-        type : 'Front End'
+        type : 'Front End',
+        admin_account : '',
     },
     {
         image : proj3,
@@ -34,7 +38,8 @@ export const projects = [
         techUsed :  `HTML5, CSS3, Bootstrap, JavaScript, ReactJS, Redux.`,
         liveLink : 'https://movie-app-blush-two.vercel.app/',
         codeLink : 'https://github.com/OnlineElite/Movie_App',
-        type : 'Front End'
+        type : 'Front End',
+        admin_account : '',
     },
     {
         image : proj7,
@@ -43,7 +48,8 @@ export const projects = [
         techUsed :  `HTML5, CSS3, Bootstrap, JavaScript, ReactJS.`,
         liveLink : 'https://snapshot-app-five.vercel.app/',
         codeLink : 'https://github.com/OnlineElite/Snapshot_App',
-        type : 'Front End'
+        type : 'Front End',
+        admin_account : '',
     },
     {
         image : proj9,
@@ -52,7 +58,8 @@ export const projects = [
         techUsed :  `HTML5, CSS3, Bootstrap.`,
         liveLink : 'https://cars-website-rouge.vercel.app/',
         codeLink : 'https://github.com/OnlineElite/Cars_Website',
-        type : 'Front End'
+        type : 'Front End',
+        admin_account : '',
     },
     {
         image : proj6,
@@ -61,7 +68,8 @@ export const projects = [
         techUsed :  `HTML5, CSS3, Bootstrap, JavaScript, ReactJS, Redux.`,
         liveLink : 'https://weather-app-five-indol-98.vercel.app/',
         codeLink : 'https://github.com/OnlineElite/Weather_App',
-        type : 'Front End'
+        type : 'Front End',
+        admin_account : '',
     },
     {
         image : proj2,
@@ -70,16 +78,18 @@ export const projects = [
         techUsed :  `HTML5, CSS3, Bootstrap, JavaScript.`,
         liveLink : 'https://drawing-pallet.vercel.app/',
         codeLink : 'https://github.com/OnlineElite/Drawing_Pallet',
-        type : 'Front End'
+        type : 'Front End',
+        admin_account : '',
     },
     {
         image : proj4,
         title : `Todo's | To Do Application`,
-        description : `A web application that allows you to list and manage your tasks by changing the status between completed or incomplete..`,
+        description : `A web application that allows you to list and manage your tasks by changing the status between completed or incomplete.`,
         techUsed :  `HTML5, CSS3, Bootstrap, JavaScript, ReactJS.`,
         liveLink : 'https://todo-list-gamma-one-76.vercel.app/',
         codeLink : 'https://github.com/OnlineElite/ToDo_List',
-        type : 'Front End'
+        type : 'Front End',
+        admin_account : '',
     },
     /*{
         image : proj8,
@@ -88,7 +98,8 @@ export const projects = [
         techUsed :  `HTML5, CSS3, Bootstrap, JavaScript, NodeJS, ExpressJS, PostgreSQL.`,
         liveLink : '',
         codeLink : 'https://github.com/OnlineElite/Restaurant_Website',
-        type : 'Full Stack'
+        type : 'Full Stack',
+        admin_account : '',
     },*/
     
 ]

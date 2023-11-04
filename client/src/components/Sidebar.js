@@ -39,12 +39,12 @@ function Sidebar(){
         <div id="sidebar">
             <div className="photoCover"><div className="cercle"><img src= {jamal} alt="name"/></div></div>
                 <h2>PERSONAL INFORMATION</h2>
-                <p className="contact"><FontAwesomeIcon className='icons' icon="fa-solid fa-envelope"/> jamalboujbari@gmail.com</p>
-                <p className="contact"><FontAwesomeIcon className='icons' icon="fa-solid fa-phone"/> +212 639 411 280</p>
-                <p className="contact"><FontAwesomeIcon className='icons' icon="fa-solid fa-cake-candles"/> 15/10/1997</p>
-                <p className="contact"><FontAwesomeIcon className='icons' icon="fa-solid fa-location-dot"/> Casablanca -Morocco</p>
-                <p className="contact"><FontAwesomeIcon className='icons' icon="fa-solid fa-ring"/> Single</p>
-                <p className="contact"><FontAwesomeIcon className='icons' icon="fa-solid fa-car"/> Driving license type B</p>
+                <p className="contact"><FontAwesomeIcon className='icons text-white' icon="fa-solid fa-envelope"/> jamalboujbari@gmail.com</p>
+                <p className="contact"><FontAwesomeIcon className='icons text-white' icon="fa-solid fa-phone"/> +212 639 411 280</p>
+                <p className="contact"><FontAwesomeIcon className='icons text-white' icon="fa-solid fa-cake-candles"/> 15/10/1997</p>
+                <p className="contact"><FontAwesomeIcon className='icons text-white' icon="fa-solid fa-location-dot"/> Casablanca -Morocco</p>
+                <p className="contact"><FontAwesomeIcon className='icons text-white' icon="fa-solid fa-ring"/> Single</p>
+                <p className="contact"><FontAwesomeIcon className='icons text-white' icon="fa-solid fa-car"/> Driving license type B</p>
 
                 <h2>LANGUAGES</h2>
                 <div className="lags">

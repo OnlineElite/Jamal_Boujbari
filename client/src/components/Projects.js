@@ -19,9 +19,10 @@ function Projects(){
                                 <div className='desc'> {proj.description} </div>
                             </div>
                             <div className='cartFooter'>
-                                <p><span>Tech used:</span>
-                                {proj.techUsed}
-                                </p>
+                                <p><span>Tech used:</span>{proj.techUsed}</p>
+                                {proj.admin_account!== ''?
+                                <p><span>Admin email:</span>{proj.admin_account.email}  <span>password:</span>{proj.admin_account.pass} </p> : ''
+                                }
                                 <div className='buttons'>
                                     <a href= {proj.liveLink} rel='noreferrer' target='_blank'>
                                         <button className='btn live'>See Live</button>
