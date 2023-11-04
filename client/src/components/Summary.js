@@ -10,7 +10,7 @@ function Summary(){
 
     return(
         <div id='summary'>
-            {/*<div className='leftSide'>
+            <div className='leftSide'>
                 <a className='' href='/'>
                     <FontAwesomeIcon className='icons' icon="fa-regular fa-circle-left" />
                 </a>
@@ -23,8 +23,8 @@ function Summary(){
                         <FontAwesomeIcon className='icons' icon="fa-solid fa-download" />
                     </Link>
                 </span>
-            </div>*/}
-            <div className='containery '>
+            </div>
+            <div className='container '>
                 <div className='row'>
                     <div id="sidebar" class="col-md-3 col-lg-3 col-sm-12">
                         <Sidebar/>
