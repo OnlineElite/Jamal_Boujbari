@@ -51,7 +51,7 @@ function Deploma(){
                         </div>
                         <div className="formacontenet">
                             <p> 
-                                Diploma Full Stack Javascript from Developers Institute, Casablanca.   
+                                Diploma Full Stack Web Developer from Developers Institute, Casablanca.   
                             </p>
                         </div>
                     </div>
