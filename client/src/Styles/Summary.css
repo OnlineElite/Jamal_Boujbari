@@ -6,7 +6,7 @@
 #summary{
     background-image: url('../images/header.jpg');
     margin:0;
-    padding-block: 0.5rem;
+    /*padding-block: 0.5rem;*/
     position: relative;
 }
 
