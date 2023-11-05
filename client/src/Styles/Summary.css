@@ -10,6 +10,22 @@
     position: relative;
 }
 
+#summary .modal-content{
+    background-image:linear-gradient(rgb(8, 8, 247), white);
+}
+
+#summary .modal-body{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#summary .modal-body button{
+    border: 1px solid white;
+    padding-inline: 1.5rem;
+}
+
 #summary .leftSide{
     display: flex;
     flex-direction: column;

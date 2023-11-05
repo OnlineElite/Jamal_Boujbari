@@ -16,9 +16,9 @@ function Freetime(){
         freeTimeTasks.forEach((val) => {
             for(let num of numbers){
                 for(let task of taskNames){
-                    console.log(task.getAttribute('name'))
+                   
                     if(num.getAttribute('name') === task.getAttribute('name') & num.getAttribute('name') === val.name){
-                        console.log(`numid ${num.getAttribute('name')} taskid ${task.getAttribute('name')}`)
+                        
                         let counter = 0;
                         setInterval(() =>{
                             if(counter === val.percent){
@@ -56,11 +56,11 @@ function Freetime(){
                         <svg className="svg" xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
                             <defs>
                                 <linearGradient id="Internet">
-                                    <stop offset="0%" stop-color="green" />
-                                    <stop offset="100%" stop-color="lightgreen" />
+                                    <stop offset="0%" stopColor="green" />
+                                    <stop offset="100%" stopColor="lightgreen" />
                                 </linearGradient>
                             </defs>
-                            <circle className="circle Internet" cx="80" cy="80" r="70" stroke-linecap="round" />
+                            <circle className="circle Internet" cx="80" cy="80" r="70" strokeLinecap="round" />
                         </svg>
                     </div>
                     <div className="taskName" name="Internet browsing"></div>
@@ -76,11 +76,11 @@ function Freetime(){
                         <svg className="svg" xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
                             <defs>
                                 <linearGradient id="Programming">
-                                    <stop offset="0%" stop-color="blue" />
-                                    <stop offset="100%" stop-color="#b3c9fb" />
+                                    <stop offset="0%" stopColor="blue" />
+                                    <stop offset="100%" stopColor="#b3c9fb" />
                                 </linearGradient>
                             </defs>
-                            <circle className="circle Programming" cx="80" cy="80" r="70" stroke-linecap="round" />
+                            <circle className="circle Programming" cx="80" cy="80" r="70" strokeLinecap="round" />
                         </svg>
                     </div> 
                     <div className="taskName" name="Programming"></div>
@@ -96,11 +96,11 @@ function Freetime(){
                         <svg className="svg" xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
                             <defs>
                                 <linearGradient id="Travel">
-                                    <stop offset="0%" stop-color="orange" />
-                                    <stop offset="100%" stop-color="lightsalmon" />
+                                    <stop offset="0%" stopColor="orange" />
+                                    <stop offset="100%" stopColor="lightsalmon" />
                                 </linearGradient>
                             </defs>
-                            <circle className="circle Travel" cx="80" cy="80" r="70" stroke-linecap="round" />
+                            <circle className="circle Travel" cx="80" cy="80" r="70" strokeLinecap="round" />
                         </svg>
                     </div> 
                     <div className="taskName" name="Travel"></div>
@@ -116,11 +116,11 @@ function Freetime(){
                         <svg className="svg" xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
                             <defs>
                                 <linearGradient id="Sports">
-                                    <stop offset="0%" stop-color="purple" />
-                                    <stop offset="100%" stop-color=" lightpink" />
+                                    <stop offset="0%" stopColor="purple" />
+                                    <stop offset="100%" stopColor=" lightpink" />
                                 </linearGradient>
                             </defs>
-                            <circle className="circle Sports" cx="80" cy="80" r="70" stroke-linecap="round" />
+                            <circle className="circle Sports" cx="80" cy="80" r="70" strokeLinecap="round" />
                         </svg>
                     </div>
                     <div className="taskName" name="Sports"></div>
