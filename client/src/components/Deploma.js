@@ -35,7 +35,7 @@ function Deploma(){
                         <p><FontAwesomeIcon className='icons' icon="fa-solid fa-award"/> Jun 2016: </p>
                     </div>
                     <div className="formacontenet">
-                        <p>Baccalaureate degree in Physics Sciences, Essaouira.</p>
+                        <p>High school degree in physical sciences, Essaouira.</p>
                     </div>
                 </div>
             </div>
