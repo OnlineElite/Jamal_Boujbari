@@ -1,5 +1,5 @@
 import React from 'react'
-import phot from '../images/programer.jpg'
+import phot from '../images/img5.png'
 import '../Styles/About.css'
 function About(){
 

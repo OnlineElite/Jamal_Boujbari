@@ -20,6 +20,8 @@
     width: 200px;
     height: 200px;
     border-radius: 100%;
+    border: 2px solid white;
+    background-color:#6f34fe;
 }
 #about .circle img {
     width: 100%;
@@ -31,6 +33,7 @@
     position: relative;
     height: fit-content;
     padding-bottom: 2rem;
+    margin-top: 1.5rem;
 }
 #about .case2 p{
     width: 100%;

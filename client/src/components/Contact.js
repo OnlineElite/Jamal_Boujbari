@@ -64,18 +64,18 @@ function Contact(){
             <h2 className='text-center'>Get In Touch</h2>
             <div className='container my-2 '>
                 <form onSubmit={handleSend} id='contForm' className='row w-100'>
+                    <span className='text-center col-md-6 col-sm-12'>
+                        <textarea onChange={handleinputsChange} className='px-2' required value={formData.userMessage} id="userMessage" name="userMessage" placeholder='Message *'/>
+                    </span>
                     <span className='col-md-6 col-sm-12'>
                         <input onChange={handleinputsChange} className='px-2 ' type="text" required value={formData.userName} id="userName" name="userName"  placeholder='Full Name *'/>
                         <input onChange={handleinputsChange} className='px-2 ' type='email' required value={formData.userEmail} id='userEmail' name='userEmail' placeholder='Email *'/>
                         <input onChange={handleinputsChange} className='px-2 ' type='text' required value={formData.userPhoneNumber} id='userPhoneNumber' name='userPhoneNumber' placeholder='Phone Number *'/>
                         <button className='btn ' type='submit'>Send</button>
                     </span>
-                    <span className='col-md-6 col-sm-12'>
-                        <textarea onChange={handleinputsChange} className='px-2' required value={formData.userMessage} id="userMessage" name="userMessage" placeholder='Message *'/>
-                    </span>
                 </form>
             </div>
-            <div className='rights py-2'>Last update 05-11-2023 ©️ Jamal Boujbari Portfolio</div>
+            <div className='rights py-2'>Last update 08-11-2023 ©️ Jamal Boujbari Portfolio</div>
             <ToastContainer
                 position="top-center"
                 autoClose={2000}

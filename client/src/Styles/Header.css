@@ -15,7 +15,8 @@
 }
 
 #header .modal-content{
-    background-image:linear-gradient(rgb(8, 8, 247), white);
+    background-image:linear-gradient(blue, white);
+    border: 1px solid white;
 }
 
 #header .modal-body{
@@ -31,7 +32,7 @@
 }
 
 #header .content{
-    width: 75%;
+    width: 80vw;
     min-height: 86vh;
     padding: 0 1.3rem;
     background-color: rgba(255, 255, 255, 0.1);
@@ -45,16 +46,15 @@
 #header nav{
     background-color: transparent;
     height: 7%;
-    width: 90%;
-    display: flex;
-    align-items: baseline;
-    justify-content: space-between;
-    margin: 1rem auto;
-    padding: 1.2rem;
+    width: 98%;
+    align-items: center;
+    margin: 0.5rem auto;
+    padding: 0.5rem;
 }
 
 #header .navbar-brand{
     font-size: 2rem;
+    text-align: center;
     font-weight: 700;
     margin-left: 0.4rem;
     text-decoration: none;
@@ -66,14 +66,15 @@
     font-size: 2.2rem;
 }
 
+
 #header .content  ul li{
-    display: inline-block;
     padding: 0 1.2rem;
     list-style: none;
     text-decoration: none;
     font-size: 1.1rem;
     color: #000;
     transition: 0.3s;
+    width: fit-content;
 }
 
 #header .content  ul li:hover{
@@ -96,9 +97,14 @@
     padding-left: 5rem;
 }
 
+#header .details .right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 #header .details .section1{
     position: relative;
-    width: 40%;
 }
 
 #header .details .section1 h1{
@@ -141,8 +147,6 @@
     width: 20vw;
     height: 20vw;
     border-radius: 50%;
-    margin-right: 4rem;
-    margin-top: 2.5rem;
     text-align: center;
   
 }
