@@ -46,14 +46,15 @@
     padding: 0.5rem;
 }
 
-#skills .row .card .cart_body ul{
+#skills .row .card .cart_body div{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 
-#skills .row .card .cart_body ul li{
+#skills .row .card .cart_body div p{
+    margin: 0;
     list-style: none;
     color: #000;
     font-weight: 700;

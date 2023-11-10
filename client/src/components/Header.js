@@ -32,7 +32,7 @@ function Header(){
                 </nav>
                 
                 <div className='details'>
-                <div className='social'>
+                    <div className='social'>
                         <a href='https://linkedin.com/in/jamal-boujbari-937121212' rel='noreferrer' target='_blank'>
                             <FontAwesomeIcon className='icon' icon="fa-brands fa-linkedin" />
                         </a>

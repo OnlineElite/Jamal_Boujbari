@@ -16,48 +16,48 @@ function Skills(){
                                 <span>Front End</span>
                             </div>
                             <div className='cart_body'>
-                                <ul>
-                                    <li>HTML5</li>
-                                    <li>CSS3</li>
-                                    <li>Bootstrap</li>
-                                    <li>Javascript</li>
-                                    <li>ReactJS</li>
-                                    <li>Redux</li>
-                                </ul>
+                                <div>
+                                    <p>HTML5</p>
+                                    <p>CSS3</p>
+                                    <p>Bootstrap</p>
+                                    <p>Javascript</p>
+                                    <p>ReactJS</p>
+                                    <p>Redux</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div className=' col-md-4 col-sm-12'>
                         <div className='card'>
                             <div className='cart_head'>
-                                <FontAwesomeIcon className='icons' icon="fa-solid fa-code" />
+                                <FontAwesomeIcon className='icons' icon="fa-sopd fa-code" />
                                 <span>Back End</span>  
                             </div>
                             <div className='cart_body'>
-                                <ul>
-                                    <li>NodeJS</li>
-                                    <li>ExpressJS</li>
-                                    <li>PostgreSQL</li>
-                                    <li>Javascript</li>
-                                    <li>APIs</li>
-                                </ul>
+                                <div>
+                                    <p>NodeJS</p>
+                                    <p>ExpressJS</p>
+                                    <p>PostgreSQL</p>
+                                    <p>Javascript</p>
+                                    <p>APIs</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div className=' col-md-4 col-sm-12'>
                         <div className='card'>
                             <div className='cart_head'>
-                                <FontAwesomeIcon className='icons' icon="fa-solid fa-sitemap" />
+                                <FontAwesomeIcon className='icons' icon="fa-sopd fa-sitemap" />
                                 <span>Other</span>
                             </div>
                             <div className='cart_body'>
-                                <ul>
-                                    <li>Git</li>
-                                    <li>GitHub</li>
-                                    <li>VS Code</li>
-                                    <li>Vercel</li>
-                                    <li>Render</li>
-                                </ul>
+                                <div>
+                                    <p>Git</p>
+                                    <p>GitHub</p>
+                                    <p>VS Code</p>
+                                    <p>Vercel</p>
+                                    <p>Render</p>
+                                </div>
                             </div>
                         </div>
                     </div>
