@@ -85,11 +85,11 @@ function Header(){
                                 target="_blank"
                                 rel="noreferrer"
                             >
-                            <button className='btn btn-success'> In French </button>
+                            <button className='btn text-white' style={{backgroundColor : '#01ad01'}}> In French </button>
                             </Link>
                         </div>
                         <div className="modal-footer">
-                            <button type="button" className="btn btn-danger text-white" data-bs-dismiss="modal">Close</button>
+                            <button type="button" className="btn btn-danger text-white" data-bs-dismiss="modal">Cancel</button>
                         </div>
                     </div>
                 </div>

@@ -15,7 +15,7 @@
 }
 
 #header .modal-content{
-    background-image:linear-gradient(blue, white);
+    background-image:linear-gradient(rgb(0, 140, 255), white);
     border: 1px solid white;
 }
 
