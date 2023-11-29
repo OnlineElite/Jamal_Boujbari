@@ -1,6 +1,7 @@
 import React from 'react'
 import {projects} from './ProjectsInfo'
 import '../Styles/Projects.css'
+
 function Projects(){
 
     return(
@@ -10,6 +11,24 @@ function Projects(){
                 {projects.map((proj, idx)=>(
                     <div className='cart' key={idx}>
                         <div className='cart_head'>
+                            {/*<div id="carouselExample" className="carousel slide w-100 h-100">
+                                <div className="carousel-inner">  
+                                    <div className="carousel-item">
+                                        <img src= {proj.image} alt='project'/>
+                                    </div>
+                                    <div className="carousel-item">
+                                        <img src= {proj.image2} alt='project'/>
+                                    </div>
+                                </div>
+                                <button className="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span className="visually-hidden">Previous</span>
+                                </button>
+                                <button className="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span className="visually-hidden">Next</span>
+                                </button>
+                            </div>*/}
                             <img src= {proj.image} alt='project'/>
                         </div>
                         <div className='cart_body'>

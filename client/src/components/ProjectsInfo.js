@@ -1,4 +1,5 @@
 import proj1 from '../images/projtechwave.png'
+import proj11 from '../images/projDashboard.png'
 import proj2 from '../images/projdrawing.png'
 import proj3 from '../images/projMovie.png'
 import proj4 from '../images/projtodos.png'
@@ -10,6 +11,7 @@ import proj9 from '../images/projcar.png'
 export const projects = [
     {
         image : proj1,
+        image2 : proj11,
         title : 'TechWave | Online Store & Dashboard',
         description : `An e-commerce website with inventory management system that allows you to controle the store.`,
         techUsed :  `HTML5, CSS3, Bootstrap, JavaScript, ReactJS, Redux, NodeJS, PostgreSQL.`,
@@ -23,6 +25,7 @@ export const projects = [
     },
     {
         image : proj5,
+        image2 : '',
         title : 'MindMatch | Online Memory Game',
         description : `Immerse yourself in a fun challenge of sharp recollection with our Images Memory Game. Match pairs and exercise your memory while exploring a world of vibrant visuals.`,
         techUsed :  `HTML5, CSS3, Bootstrap, JavaScript, ReactJS.`,
@@ -33,6 +36,7 @@ export const projects = [
     },
     {
         image : proj3,
+        image2 : '',
         title : 'Xaction | Movie Application',
         description : `A web application through which you can search for movies of all categories, show movie details, and watch it.`,
         techUsed :  `HTML5, CSS3, Bootstrap, JavaScript, ReactJS, Redux.`,
@@ -43,6 +47,7 @@ export const projects = [
     },
     {
         image : proj7,
+        image2 : '',
         title : `Snapshot | Image Search Application`,
         description : `Your go-to destination for effortless image searches. Easily upload or link images, and our advanced algorithms will swiftly identify and retrieve related content, making image exploration and retrieval a seamless experience.`,
         techUsed :  `HTML5, CSS3, Bootstrap, JavaScript, ReactJS.`,
@@ -53,6 +58,7 @@ export const projects = [
     },
     {
         image : proj9,
+        image2 : '',
         title : 'AutoLux | Cars Website & Cars Blog ',
         description : `The official digital hub for our esteemed automotive company, showcasing our full range of vehicles, services, and customer support, with a focus on user-friendly navigation and interactive features.`,
         techUsed :  `HTML5, CSS3, Bootstrap.`,
@@ -63,6 +69,7 @@ export const projects = [
     },
     {
         image : proj6,
+        image2 : '',
         title : 'Herolo | Online Weather Application',
         description : `An online weather application that allows you to search for a location's weather by city name. It shows the current weather and 5-day weather forecast for the searched location. And save it in your favorites.`,
         techUsed :  `HTML5, CSS3, Bootstrap, JavaScript, ReactJS, Redux.`,
@@ -73,6 +80,7 @@ export const projects = [
     },
     {
         image : proj2,
+        image2 : '',
         title : 'DrawMe | Drawing Pallet',
         description : `A web application that allows you to choose a color and draw with a color palette that generates random colors.`,
         techUsed :  `HTML5, CSS3, Bootstrap, JavaScript.`,
@@ -83,6 +91,7 @@ export const projects = [
     },
     {
         image : proj4,
+        image2 : '',
         title : `Todo's | To Do Application`,
         description : `A web application that allows you to list and manage your tasks by changing the status between completed or incomplete.`,
         techUsed :  `HTML5, CSS3, Bootstrap, JavaScript, ReactJS.`,
@@ -93,6 +102,7 @@ export const projects = [
     },
     /*{
         image : proj8,
+        image2 : '',
         title : 'SAMOS | Restaurant Website',
         description : `An inviting online platform for our restaurant, where visitors can explore our enticing menu, browse through captivating images of our cuisine, and easily make reservations to savor a memorable dining experience.`,
         techUsed :  `HTML5, CSS3, Bootstrap, JavaScript, NodeJS, ExpressJS, PostgreSQL.`,

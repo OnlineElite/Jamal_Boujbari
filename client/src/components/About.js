@@ -10,11 +10,11 @@ function About(){
                 <div className="row">
                     <div className="case1 col-md-4 col-sm-12">
                         <div className="circle"><img src= {phot} alt="none"/></div>
-                        <span className="text-secondary">Full Stack Developer</span>
+                        <span className="text-secondary">Full Stack Web Developer</span>
                     </div>
                     <div className="case2 col-md-8 col-sm-12">
                         <h3>Jamal Boujbari</h3>
-                        <p>I am a Full Stack Developer with passion for building beautiful and 
+                        <p>I am a Full Stack Web Developer with passion for building beautiful and 
                             user-freindly websites. I have a strong understanding of both fron-end 
                             and back-end development, and I am excited to put my skills to use in a 
                             professional setting. I am a quick learner and a team player, and I am 
