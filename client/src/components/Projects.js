@@ -1,5 +1,7 @@
 import React from 'react'
 import {projects} from './ProjectsInfo'
+import { Fade } from 'react-slideshow-image';
+import 'react-slideshow-image/dist/styles.css'
 import '../Styles/Projects.css'
 
 function Projects(){
@@ -9,27 +11,19 @@ function Projects(){
             <h2 className='text-center'>My Projects</h2>
             <div className='container px-5'>
                 {projects.map((proj, idx)=>(
-                    <div className='cart' key={idx}>
+                    <div className='cart ' key={idx}>
                         <div className='cart_head'>
-                            {/*<div id="carouselExample" className="carousel slide w-100 h-100">
-                                <div className="carousel-inner">  
-                                    <div className="carousel-item">
-                                        <img src= {proj.image} alt='project'/>
+                            <Fade className='slider w-100 h-100'>
+                                {proj.image.map((slideImage, index)=> (
+                                    <div key={index} className='w-100 h-100' >
+                                        <div className='divStyle w-100 h-100'>
+                                            <img src= {slideImage} alt='slideImg'/> 
+                                        </div>
                                     </div>
-                                    <div className="carousel-item">
-                                        <img src= {proj.image2} alt='project'/>
-                                    </div>
-                                </div>
-                                <button className="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                                    <span className="visually-hidden">Previous</span>
-                                </button>
-                                <button className="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                                    <span className="visually-hidden">Next</span>
-                                </button>
-                            </div>*/}
-                            <img src= {proj.image} alt='project'/>
+                                ))} 
+                            </Fade>
+                            <div className='cercleRight'></div>
+                            <div className='cercleLeft'></div>
                         </div>
                         <div className='cart_body'>
                             <div className='desc'>
