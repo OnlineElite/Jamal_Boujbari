@@ -85,7 +85,7 @@ function Header(){
                                 target="_blank"
                                 rel="noreferrer"
                             >
-                            <button className='btn text-white' style={{backgroundColor : '#01ad01'}}> In French </button>
+                            <button className='btn text-white btn-primary'> In French </button>
                             </Link>
                         </div>
                         <div className="modal-footer">

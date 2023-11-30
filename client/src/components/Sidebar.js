@@ -44,7 +44,7 @@ function Sidebar(){
                 <p className="contact"><FontAwesomeIcon className='icons text-white' icon="fa-solid fa-cake-candles"/> 15/10/1997</p>
                 <p className="contact"><FontAwesomeIcon className='icons text-white' icon="fa-solid fa-location-dot"/> Casablanca -Morocco</p>
                 <p className="contact"><FontAwesomeIcon className='icons text-white' icon="fa-solid fa-ring"/> Single</p>
-                <p className="contact"><FontAwesomeIcon className='icons text-white' icon="fa-solid fa-car"/> Driving license type B</p>
+                <p className="contact"><FontAwesomeIcon className='icons text-white' icon="fa-solid fa-car"/> Driving license category B</p>
 
                 <h2>LANGUAGES</h2>
                 <div className="lags">

@@ -17,10 +17,10 @@ export const projects = [
         liveLink : 'https://inventory-management-system-seven.vercel.app/',
         codeLink : 'https://github.com/OnlineElite/Inventory_Management_System',
         type : 'Full Stack',
-        admin_account : {
+        admin_account : '' /*{
             email : 'admin@gmail.com',
             pass : 'admin' 
-        },
+        },*/
     },
     {
         image : [proj5,proj5],
