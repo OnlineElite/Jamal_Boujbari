@@ -23,7 +23,10 @@ function Profile(){
             </div>
             <div id="frofile">
                 <div className="contitle">
-                    <div className="title"><i className="fa-solid fa-id-card"></i> <h3>PROFIL</h3></div>
+                    <div className="title">
+                        <FontAwesomeIcon className='icons pe-1' icon="fa-solid fa-address-card" />
+                        <h3>PROFIL</h3>
+                    </div>
                     <div className="arrow-left"></div>
                 </div>
                 <div className="content">
