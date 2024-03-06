@@ -13,7 +13,7 @@ export const projects = [
         image : [proj1, proj11],
         title : 'TechWave | Online Store & Dashboard',
         description : `An e-commerce website with inventory management system that allows you to controle the store.`,
-        techUsed :  `HTML5, CSS3, Bootstrap, JavaScript, ReactJS, Redux, NodeJS, PostgreSQL.`,
+        techUsed :  `HTML5, CSS3, Bootstrap, JavaScript, ReactJS, Redux, NodeJS, ExpressJs, PostgreSQL.`,
         liveLink : 'https://inventory-management-system-seven.vercel.app/',
         codeLink : 'https://github.com/OnlineElite/Inventory_Management_System',
         type : 'Full Stack',

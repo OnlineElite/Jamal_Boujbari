@@ -75,7 +75,7 @@ function Contact(){
                     </span>
                 </form>
             </div>
-            <div className='rights py-2'>Last update 03-03-2024 ©️ Jamal Boujbari Portfolio</div>
+            <div className='rights py-2'>Last update 06-03-2024 ©️ Jamal Boujbari Portfolio</div>
             <ToastContainer
                 position="top-center"
                 autoClose={2000}
