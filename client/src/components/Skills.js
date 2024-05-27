@@ -56,7 +56,7 @@ function Skills(){
                                     <p>Git</p>
                                     <p>GitHub</p>
                                     <p>VS Code</p>
-                                    <p>Trello</p>
+                                    <p>Scrum</p>
                                     <p>Jira</p>
                                     <p>Vercel</p>
                                 </div>
