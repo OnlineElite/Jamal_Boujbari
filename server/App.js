@@ -4,7 +4,7 @@ const bp = require('body-parser')
 const nodemailer = require('nodemailer')
 const Mailgen = require('mailgen')
 const app = exp();
-const port = 7000;
+const port = 3700;
 
 require("dotenv").config();
 app.use('/',exp.static(__dirname+'/public'));

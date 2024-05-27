@@ -13,7 +13,7 @@ function Projects(){
                 {projects.map((proj, idx)=>(
                     <div className='cart ' key={idx}>
                         <div className='cart_head'>
-                            <Fade className='slider w-100 h-100'>
+                            <Fade className='slider w-100 h-100 '>
                                 {proj.image.map((slideImage, index)=> (
                                     <div key={index} className='w-100 h-100' >
                                         <div className='divStyle w-100 h-100'>
