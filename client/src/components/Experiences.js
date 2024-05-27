@@ -22,7 +22,7 @@ function Experiences(){
                 </div>
                 <div className="formations">
                     <div className="formadate">
-                        <p><FontAwesomeIcon className='icons' icon="fa-solid fa-calendar-days"/> Feb. 2020 until now : </p>
+                        <p><FontAwesomeIcon className='icons' icon="fa-solid fa-calendar-days"/> Feb. 2020 to Feb. 2024 : </p>
                     </div>
                     <div className="formacontenet">
                         <p>Work within the company Counter of Motor Parts and Accessories (COPIMA) in Casablanca.</p>
@@ -30,6 +30,17 @@ function Experiences(){
                             <span><FontAwesomeIcon className='icons' icon="fa-solid fa-circle"/> Billing Agent.</span>
                             <span><FontAwesomeIcon className='icons' icon="fa-solid fa-circle"/> Responsible for processing returns.</span>
                             <span><FontAwesomeIcon className='icons' icon="fa-solid fa-circle"/> Responsible for inventory control.</span>
+                        </div>
+                    </div>
+                </div>
+                <div className="formations">
+                    <div className="formadate">
+                        <p><FontAwesomeIcon className='icons' icon="fa-solid fa-calendar-days"/> Feb. 2024 until now : </p>
+                    </div>
+                    <div className="formacontenet">
+                        <p>Work within the company Counter of Motor Parts and Accessories (COPIMA) in Casablanca.</p>
+                        <div className="spans">
+                            <span><FontAwesomeIcon className='icons' icon="fa-solid fa-circle"/> Product Owner.</span>
                         </div>
                     </div>
                 </div>
