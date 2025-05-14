@@ -95,6 +95,7 @@
     width: 100%;
     margin-top: 10vh;
     padding-left: 5rem;
+    flex-wrap: wrap;
 }
 
 #header .details .right{
@@ -176,4 +177,15 @@
 
 #header .details .social a .icon:hover{
     color: #6f34fe;
+}
+
+#header .details .Butt{
+    display: flex;
+    align-items: start;
+    flex-wrap: wrap;
+}
+
+#header .details .Butt .btn{
+    margin-top: 5px;
+    margin-right: 5px;
 }

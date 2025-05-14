@@ -21,12 +21,13 @@ function Summary(){
             </div>
             <div className='container '>
                 <div className='row'>
-                    <div id="sidebar" className="col-md-3 col-lg-3 col-sm-12">
+                    
+                    {/*-<div id="sidebar" className="col-md-3 col-lg-3 col-sm-12">
                         <Sidebar/>
                     </div>
                     <div id="main" className="col-md-9 col-lg-9 col-sm-12">
                         <Content/>
-                    </div>
+                    </div>*/}
                 </div>
             </div>
             {/*-- Modal --*/}

@@ -37,10 +37,10 @@ function Skills(){
                                 <div>
                                     <p>NodeJS</p>
                                     <p>ExpressJS</p>
-                                    <p>Javascript</p>
                                     <p>APIs</p>
                                     <p>PostgreSQL</p>
                                     <p>MySQL</p>
+                                    <p>SQL Server</p>
                                 </div>
                             </div>
                         </div>
@@ -55,10 +55,10 @@ function Skills(){
                                 <div>
                                     <p>Git</p>
                                     <p>GitHub</p>
-                                    <p>VS Code</p>
-                                    <p>Scrum</p>
-                                    <p>Jira</p>
+                                    <p>Render</p>
                                     <p>Vercel</p>
+                                    <p>Firebase</p>                                   
+                                    <p>Jira</p>
                                 </div>
                             </div>
                         </div>
