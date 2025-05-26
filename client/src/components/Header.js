@@ -4,8 +4,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import imag from '../images/img7.png'
 import {Link} from 'react-router-dom'
 import CV_English from '../images/CV_English110525.pdf'
-import CV_French from '../images/CV_French.pdf'
+//import CV_French from '../images/CV_French.pdf'
 import '../Styles/Header.css'
+import video from '../images/elevatorPitch.mp4'
 function Header(){
 
     return(
@@ -85,8 +86,11 @@ function Header(){
                             <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div className="modal-body ">
-                            <p>
-                                Hello! I'm Jamal Boujbari, a Full Stack Web Developer and Product Owner based in Casablanca.<br/>
+                            <div style={{width : "100%", height : "100%", marginBottom :  "5px"}}>
+                                <video style={{width : "100%", height : "100%", border : "2px solid black", borderRadius : "8px"}} src= {video} controls autoplay/>
+                            </div>
+                            <p style={{width :  "100%", height : "100%"}}>
+                                Hello! I'm <b>Jamal Boujbari</b>, a Full Stack Web Developer and Product Owner based in Casablanca.<br/>
 
                                 With a background in physics and energy sciences, I transitioned into tech by completing a full-stack development 
                                 program at Developers Institute. Today, I work as an IT Project Manager and Technical Product Owner , where I bridge
