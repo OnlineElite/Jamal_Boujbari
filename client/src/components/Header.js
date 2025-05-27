@@ -65,7 +65,7 @@ function Header(){
                                             Download CV
                                         </button>
                                     </Link>
-                                    <button  type="button" className='btn' data-bs-toggle="modal" data-bs-target="#pitch">View Elevator Pitch</button>
+                                    {/*<button  type="button" className='btn' data-bs-toggle="modal" data-bs-target="#pitch">View Elevator Pitch</button>*/}
                                 </div>
                             </div>
                         </div>
@@ -86,10 +86,7 @@ function Header(){
                             <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div className="modal-body ">
-                            <div style={{width : "100%", height : "100%", marginBottom :  "5px"}}>
-                                <video style={{width : "100%", height : "100%", border : "2px solid black", borderRadius : "8px"}} src= {video} controls autoplay/>
-                            </div>
-                            <p style={{width :  "100%", height : "100%"}}>
+                            <p>
                                 Hello! I'm <b>Jamal Boujbari</b>, a Full Stack Web Developer and Product Owner based in Casablanca.<br/>
 
                                 With a background in physics and energy sciences, I transitioned into tech by completing a full-stack development 
